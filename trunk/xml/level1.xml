@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<!-- GAMEPLAY -->
+  <!-- Backgrounds -->
+  <resource type="image" id="BACKGROUND">data/backgrounds/background_1.jpg</resource>
+  <!-- Maps -->
+  <resource type="map" id="MAP">data/maps/maplevel1.tmx</resource>
+  <!--  Player Animations -->
+  <resource type="animation" id="BUNNY_STANDING_LEFT" tw="30" th="31" duration="150">data/WhiteBunnySlower.png</resource>
+  <resource type="animation" id="EUROPEAN_LEFT" tw="35" th="41" duration="130">data/europeHumanLeft.png</resource>
+  <resource type="animation" id="EUROPEAN_RIGHT" tw="35" th="41" duration="130">data/europeHumanRight.png</resource>
+  <resource type="animation" id="EUROPEAN_STANDING_LEFT" tw="37" th="41" duration="100">data/europeHumanStanding.png</resource>
+  <resource type="animation" id="EUROPEAN_STANDING_RIGHT" tw="37" th="41" duration="130">data/europeHumanStanding.png</resource>
+  <!-- Bonus -->
+  <resource type="bonus" class="EUROPEAN" id="EUROPEAN1" minx="180" maxx="300" y="296"></resource>   
+  <resource type="bonus" class="BUNNY" id="BUNNY1" minx="480" maxx="480" y="322"></resource>
+  <!-- Levels -->
+  <resource type="text" id="TRANSITION">Les 2 zombies ont faim!</resource>
+  <resource type="image" id="TRANSITION_BACKGROUND">data/mappemonde_v2.jpg</resource>
+  <resource type="image" id="TRANSITION_TITLE">data/title_lvl1.png</resource>
+  <resource type="movingPicture" x="320" y="220" tx="320" ty="220" time="1">data/tete_zombie.png</resource>
+  <resource type="music" id="sound">data/music/VirtutesVocis.ogg</resource>
+  <resource type="animation" id="SMOKE" tw="47" th="40" duration="250">data/smoke2.png</resource>
+  <!-- Positions ini -->
+  <resource type="coordinates" id="1" x="34" y="67"></resource>
+  <resource type="coordinates" id="2" x="14" y="67"></resource>
+</resources>
+

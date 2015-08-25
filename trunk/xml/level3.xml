@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<!-- GAMEPLAY -->
+  <!-- Backgrounds -->
+  <resource type="image" id="BACKGROUND">data/backgrounds/background_3.jpg</resource>
+  <!-- Maps -->
+  <resource type="map" id="MAP">data/maps/maplevel3.tmx</resource>
+  <!--  Player Animations -->
+  <resource type="animation" id="NINJA_LEFT" tw="48" th="49" duration="150">data/ninjaLeft.png</resource>
+  <resource type="animation" id="NINJA_RIGHT" tw="48" th="49" duration="150">data/ninjaRight.png</resource>
+  <resource type="animation" id="NINJA_ATTACK_LEFT" tw="61" th="60" duration="150">data/ninjaAttackLeft.png</resource>
+  <resource type="animation" id="NINJA_ATTACK_RIGHT" tw="58" th="60" duration="150">data/ninjaAttackRight.png</resource>
+  <resource type="animation" id="NINJA_STANDING_RIGHT" tw="48" th="50" duration="150">data/ninjaStandingRight.png</resource>
+  <resource type="animation" id="NINJA_STANDING_LEFT" tw="48" th="50" duration="150">data/ninjaStandingLeft.png</resource>
+  <resource type="animation" id="PANDA_STANDING_LEFT" tw="51" th="54" duration="500">data/panda.png</resource>
+  <resource type="ammo" id="SABER_AMMO_LEFT" tw="53"  th="61" duration="150">data/saberLeft.png</resource>
+  <resource type="ammo" id="SABER_AMMO_RIGHT" tw="53" th="61" duration="150">data/saberRight.png</resource>
+  <resource type="animation" id="PARKER_LEFT" tw="30" th="42" duration="150">data/parkerLeft.png</resource>
+  <resource type="animation" id="PARKER_RIGHT" tw="30" th="42" duration="150">data/parkerRight.png</resource>
+  <resource type="animation" id="PARKER_STANDING_LEFT" tw="30" th="42" duration="150">data/parkerStandingLeft.png</resource>
+  <resource type="animation" id="PARKER_STANDING_RIGHT" tw="30" th="42" duration="150">data/parkerStandingRight.png</resource>
+  <!-- Ennemies -->
+  <resource type="ennemy" id="NINJA" class="NINJA" minx="130" maxx="380" y="321"></resource>
+  <!-- Teleports -->
+  <resource type="image" id="TELEPORT">data/teleport.png</resource>
+  <resource type="teleport" id="teleport1" x="512" y="208" xtogo="365" ytogo="80"></resource>
+  <resource type="teleport" id="teleport2" x="0" y="144" xtogo="340" ytogo="80"></resource>
+  <!-- Bonus -->
+  <resource type="bonus" class="PARKER" id="PARKER1" minx="520" maxx="620" y="392"></resource>
+  <resource type="bonus" class="PANDA" id="PANDA" minx="475" maxx="475" y="124"></resource>
+  <resource type="animation" id="SMOKE" tw="47" th="40" duration="250">data/smoke2.png</resource>
+  <!-- Levels -->
+  <resource type="text" id="TRANSITION">Les 2 zombies n'ont plus rien à dévorer en Afrique: Ils décident donc //de tester la cuisine asiatique... Ils se dirigent vers l'Asie!</resource>
+  <resource type="image" id="TRANSITION_BACKGROUND">data/mappemonde_level3.jpg</resource>
+  <resource type="image" id="TRANSITION_TITLE">data/title_lvl3.png</resource>
+  <resource type="movingPicture" x="345" y="295" tx="475" ty="225" time="5">data/tete_zombie.png</resource>
+  <resource type="music" id="sound">data/music/Opium2.ogg</resource>
+  <!-- Positions ini -->
+  <resource type="coordinates" id="1" x="34" y="67"></resource>
+  <resource type="coordinates" id="2" x="14" y="67"></resource>
+</resources>

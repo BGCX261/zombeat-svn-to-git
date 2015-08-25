@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<!-- GAMEPLAY -->
+  <!-- Backgrounds -->
+  <resource type="image" id="BACKGROUND">data/backgrounds/background_5.jpg</resource>
+  <!-- Map -->
+  <resource type="map" id="MAP">data/maps/maplevel5.tmx</resource>
+  <!--  Player Animations -->
+  <resource type="animation" id="ANTARCTICGUY_LEFT" tw="85" th="49" duration="150">data/AntarcticGuyLeft.png</resource>
+  <resource type="animation" id="ANTARCTICGUY_RIGHT" tw="85" th="49" duration="150">data/AntarcticGuyRight.png</resource>
+  <resource type="animation" id="ANTARCTICGUY_STANDING_LEFT" tw="85" th="47" duration="150">data/AntarcticGuyStandingLeft.png</resource>
+  <resource type="animation" id="ANTARCTICGUY_STANDING_RIGHT" tw="85" th="47" duration="150">data/AntarcticGuyStandingRight.png</resource>
+   <resource type="animation" id="ANTARCTICGUY_ATTACK_LEFT" tw="85" th="47" duration="150">data/AntarcticGuyStandingLeft.png</resource>
+  <resource type="animation" id="ANTARCTICGUY_ATTACK_RIGHT" tw="85" th="47" duration="150">data/AntarcticGuyStandingRight.png</resource>
+  <resource type="ammo" id="ANTARCTICGUY_AMMO_LEFT" tw1="22" tw2="66" tw3="154" th="20" duration="150">data/ammo_antarctique.png</resource>
+  <resource type="ammo" id="ANTARCTICGUY_AMMO_RIGHT" tw1="22" tw2="66" tw3="154" th="20" duration="150">data/ammo_antarctique.png</resource>
+   <!-- Ennemies -->
+  <resource type="ennemy" id="ANTARCTICGUY1" class="ANTARCTICGUY" minx="10" maxx="260" y="258"></resource>
+  <resource type="ennemy" id="ANTARCTICGUY2" class="ANTARCTICGUY" minx="500" maxx="610" y="258"></resource>
+  <!-- Teleports -->
+  <resource type="image" id="TELEPORT">data/teleport.png</resource>
+  <resource type="teleport" id="teleport1" x="470" y="32" xtogo="260" ytogo="192"></resource>
+  <resource type="teleport" id="teleport2" x="380" y="160" xtogo="30" ytogo="386"></resource>
+  <resource type="teleport" id="teleport3" x="120" y="100" xtogo="520" ytogo="160"></resource>
+  <!-- Bonus -->
+  <resource type="animation" id="SMOKE" tw="47" th="40" duration="250">data/smoke2.png</resource>
+  <!-- Levels -->
+  <resource type="text" id="TRANSITION">Les zombies ont presque consommé toutes les ressources mondiales //d'humains ! Il leur reste cependant les surgelés: //En avant pour l'antarctique !</resource>
+  <resource type="image" id="TRANSITION_BACKGROUND">data/mappemonde_level5.jpg</resource>
+  <resource type="image" id="TRANSITION_TITLE">data/title_lvl5.png</resource>
+  <resource type="movingPicture" x="190" y="310" tx="330" ty="450" time="5">data/tete_zombie.png</resource>
+  <!-- Positions ini -->
+  <resource type="coordinates" id="1" x="34" y="19"></resource>
+  <resource type="coordinates" id="2" x="610" y="403"></resource>
+  <!-- Sounds -->
+  <resource type="music" id="sound">data/music/FinalCount.ogg</resource>
+  <!-- Properties -->
+  <resource type="property" id="isFinal"></resource>
+</resources>

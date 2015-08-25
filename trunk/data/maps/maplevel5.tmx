@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="40" height="30" tilewidth="16" tileheight="16">
+ <tileset name="collision" firstgid="1" tilewidth="16" tileheight="16">
+  <image source="collision3.png"/>
+ </tileset>
+ <tileset name="tiles" firstgid="11" tilewidth="16" tileheight="16">
+  <image source="gfxlib-fuzed/Backgrounds/lev03_siberia/area03_tileset/area03_level_tiles.png" trans="ff00ff"/>
+ </tileset>
+ <tileset name="exit" firstgid="1211" tilewidth="16" tileheight="16">
+  <image source="chateau.png"/>
+ </tileset>
+ <layer name="Collision" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2WSw7AIAhE7e/+V27cdVFbdICBhJe48QeJA05remzk85L70RGRi50AwC4cLLLqwkMT58fc4RD/j8i66kTUzRMr3Ud+k062Wi+KIi5v/yTjfqnXQvvwagwvL24dw8J7Zfb4BQ+vml9lpsa0vNdMP7bOD30HrfxGeaB9UWvvaO0GrjXO4MASAAA=
+  </data>
+ </layer>
+ <layer name="Tiles" width="40" height="30" opacity="0.45">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2YRw7CMBBFJ4egrrkGdQvXoG7hGtQtXIN6DbKlXoMs+FlYsqJxJAcTU/ykp7G98IzkkshEZlh5RGvEDdzCHdzDA+mNDz1DBUUYYd4T4hle4BXe4J30xptvqu9fycAszME80y/AIjxaqq8MK7AKa0y/DhvwYac8hwKf1HtJbtsiIPVektu2KOGeayN2YBf2YB8OIm1d5HX5tLMeIq+LO+sOh+MXiPsemryHRR4hN6/cF8R9D03ewyKPkJtX7jsc30paZz4paZ35pLRi/oFV47rvA6+sQ/imMUacwCmcwTlckHqce1/xmfwivrIOSd6Elkx9AZNfxCcmeopqwBIAAA==
+  </data>
+ </layer>
+ <layer name="chateau" width="40" height="30" opacity="0.45">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3OwQ2AIBQE0T3Qf0NClABBu3IL4IzfZF4y95GAvY4kZVfS1ydrp78uV4P+NX91N4L+TX/d7gn6BwAAAAD4nxd+64PEwBIAAA==
+  </data>
+ </layer>
+</map>

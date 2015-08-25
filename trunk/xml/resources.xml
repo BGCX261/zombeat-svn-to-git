@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<!-- GAMEPLAY -->
+  <!-- Backgrounds -->
+  <resource type="image" id="BACKGROUND">data/mappemonde.jpg</resource>
+  <!-- Messages -->
+  <resource type="image" id="texts">data/messages.png</resource>
+  <!--  Player Animations -->
+  <resource type="animation" id="AVATAR_WALKING_LEFT" tw="35" th="45" duration="150">data/zombieGauche32.png</resource>
+  <resource type="animation" id="AVATAR_WALKING_RIGHT" tw="35" th="45" duration="150">data/zombieDroite32.png</resource>
+  <resource type="animation" id="AVATAR_WALKING_INV_LEFT" tw="35" th="45" duration="150">data/zombieInvGauche2.png</resource>
+  <resource type="animation" id="AVATAR_WALKING_INV_RIGHT" tw="35" th="45" duration="150">data/zombieInvDroite2.png</resource>
+  <resource type="animation" id="AVATAR_WALKING_BACK" tw="29" th="49" duration="500">data/zombieDos.png</resource>
+  <resource type="animation" id="AVATAR_EATING" tw="29" th="49" duration="1000">data/zombieEating.png</resource>
+  <resource type="animation" id="AVATAR_BURNING" tw="45" th="64" duration="200">data/zombieBurning.png</resource>
+  <resource type="animation" id="AVATAR_DECAPITATE" tw="40" th="52" duration="300">data/decapitate2.png</resource>
+  <resource type="animation" id="AVATAR_EXPLOSION" tw="50" th="50" duration="75">data/zombieExplosion.png</resource>
+  <!-- Positions ini -->
+  <resource type="coordinates" id="1" x="34" y="24"></resource>
+  <resource type="coordinates" id="2" x="34" y="24"></resource>
+</resources>

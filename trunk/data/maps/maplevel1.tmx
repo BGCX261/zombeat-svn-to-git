@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="40" height="30" tilewidth="16" tileheight="16">
+ <tileset name="collision" firstgid="1" tilewidth="16" tileheight="16">
+  <image source="collision3.png"/>
+ </tileset>
+ <tileset name="tiles2" firstgid="11" tilewidth="16" tileheight="16">
+  <image source="gfxlib-fuzed/Backgrounds/lev01_checkers/area01_tileset/area01_level_tiles.png" trans="ff00ff"/>
+ </tileset>
+ <tileset name="Sans titre" firstgid="251" tilewidth="16" tileheight="16">
+  <image source="chateau.png"/>
+ </tileset>
+ <layer name="Collision" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2WSwrAIAwFLdr7X7m4DUiTVs0YMpCFYGCU56eUOFyD0s6zVEQ/C7dTb3IWf3O6OucUvybG1dBr4evZ87pntND9IkHfa7rfLLz/AG/Q/ST5L+Ei30ca9KzP9COvszPySD8dJ/iR85fs4wGtoBW5wBIAAA==
+  </data>
+ </layer>
+ <layer name="tiles" width="40" height="30" opacity="0.44">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2VyQrCMBRFE1RUcABx2DpsHJa2urL//08qerMLj77QpG0Saw6elkISrk1vK0Q32MEZzGGmnedwy4yjY+l5Qq4zbU0XbnBBvFccZ2PZmonu8IQv+A4dhOGjDhI/ae4X7SaF67TeQ9N8jh5y9eFA1u+RqauuPRwi1wiOpeMCDcPtQx4yFIHbB8oSrjzmsuUIT6FDGFDPwkPYd9knVb+zv4ypk7HsRxvvxkSiDdZw4zjXRxfP8FJjflNd5P5rIeJ45yj2cFriIWQoDT3fVcSdL8b7xz3L6Zvyf3wB+ld+WsASAAA=
+  </data>
+ </layer>
+ <layer name="Couche 2" width="40" height="30" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3BMQEAAADCoPVPbQ0PoAAAAADg1wAW4j6/wBIAAA==
+  </data>
+ </layer>
+</map>

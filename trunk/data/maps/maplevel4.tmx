@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="40" height="30" tilewidth="16" tileheight="16">
+ <tileset name="collision" firstgid="1" tilewidth="16" tileheight="16">
+  <image source="collision32.png"/>
+ </tileset>
+ <tileset name="Sans titre" firstgid="11" tilewidth="16" tileheight="16">
+  <image source="chateau.png"/>
+ </tileset>
+ <tileset name="tiles3" firstgid="27" tilewidth="16" tileheight="16">
+  <image source="gfxlib-fuzed/Backgrounds/lev02_ancient/area02_tileset/area02_level_tiles.png" trans="ff00ff"/>
+ </tileset>
+ <tileset name="tiles4" firstgid="267" tilewidth="16" tileheight="16">
+  <image source="gfxlib-fuzed/Backgrounds/lev02_ancient/area02_tileset/area02_level_tilesModified.png" trans="ff00ff"/>
+ </tileset>
+ <layer name="Collision" width="40" height="30" opacity="0.98">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAN2W0Q6AIAhFdeX//3LroY1R6hUQsbs1bSUeEdCU3srKB1Vm7aisOFr2aau1Zcn22KTtatX2IArfrUL6EfmoduKbEd+IzsY3xH/amqYZ/wc+rtL/BRqH2ImaH5HrH9WOfK1895T1XchaHnwz1ymtI1Re8Y3G5Kr7kXTvd+LTxOGs9SH+68XOzDrC+TzuB158udK34tLkL/9/Zfy1xvF3GquHiOjb7ggfeq5ZnW8SvtE5UG5eK7T+kwr1ey9ve3MgugCOMP1KwBIAAA==
+  </data>
+ </layer>
+ <layer name="Tiles" width="40" height="30" opacity="0.62">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2YSw6CMBCG5yCi0biAHWh0BSufSz2D3kFPoCZ4aNukhDK00BdQEv/kjyRm4MswHaYFqCsmTogz5lRynQi8EtxPphfxm/ijESPipL4wpog41OSQaUe8Jz44uBfP6oKNyiWfC82JT5wX4Bcflm/5wxoL3xGq7/08JBSnDbTnL1DwtCF+YhGv8n5FPVan58YNcW3xY6k/3/iKPvjvf3bymU9l3QeD0amt+8TyGbbzW9fyrX6Gmo9Etdr0TSvUV/5EtaoyI+P5w3TuuBnGtclF/ijbww1OTZhP1tNktVKw5T3xyXoarpU7YnPNh7/vW834J1TZ+sqfqnKBu5AJH63Rr8BdfH9V9g9YSyjPSK7MKbrOOOvuN3iZ5I8/26E89Nwkgup6ov+F7HcN5ZnKjMW0zT4Fv2x/qNKrm85LYijz9wMQQVyWwBIAAA==
+  </data>
+ </layer>
+ <layer name="Chateau" width="40" height="30" opacity="0.39">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3OMQ4AEBAFUT2CILj/Rf0LbKPZwrxk+gkBAAAAAIA3USWVvUcMRVXVvEcMXQ01vUcMS211vEfwvQtxXGjxwBIAAA==
+  </data>
+ </layer>
+ <layer name="tiles2" width="40" height="30" opacity="0.49">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3YOwoAIAxEQb253txW/IQVIRh5UwrCFmENpjSreXEoKhd3T1k5PXMo+qyvZQMQl9UnSpfTR8BfbnY4wNNqVnmTMNp1GrMCaKLsBep/SQMM3I8rwBIAAA==
+  </data>
+ </layer>
+</map>

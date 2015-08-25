@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<!-- GAMEPLAY -->
+  <!-- Backgrounds -->
+  <resource type="image" id="BACKGROUND">data/backgrounds/background_4.jpg</resource>
+  <!-- Maps -->
+  <resource type="map" id="MAP">data/maps/maplevel4.tmx</resource>
+  <!--  Player Animations -->
+  <resource type="animation" id="FLAMEGUY" tw="51" th="42" duration="150">data/flameguy_attack_left.png</resource>
+  <resource type="animation" id="FLAMEGUY_LEFT" tw="46" th="41" duration="150">data/flameguyLeft.png</resource>
+  <resource type="animation" id="FLAMEGUY_RIGHT" tw="46" th="41" duration="150">data/flameguyRight.png</resource>
+  <resource type="animation" id="FLAMEGUY_ATTACK_LEFT" tw="51" th="42" duration="150">data/flameguy_attack_left.png</resource>
+  <resource type="animation" id="FLAMEGUY_ATTACK_RIGHT" tw="51" th="42" duration="150">data/flameguy_attack_right.png</resource>
+  <resource type="animation" id="FLAMEGUY_STANDING_RIGHT" tw="51" th="42" duration="150">data/flameguy_attack_right.png</resource>
+  <resource type="animation" id="FLAMEGUY_STANDING_LEFT" tw="51" th="42" duration="150">data/flameguy_attack_left.png</resource>
+  <resource type="ammo" id="FLAMEGUY_AMMO_LEFT" tw1="52" tw2="85" tw3="112" th="44" duration="150">data/flameguy_ammo_left.png</resource>
+  <resource type="ammo" id="FLAMEGUY_AMMO_RIGHT" tw1="52" tw2="85" tw3="112" th="44" duration="150">data/flameguy_ammo_right.png</resource>
+  <resource type="animation" id="PYTHON_STANDING_LEFT" tw="59" th="39" duration="150">data/python.png</resource>
+  <resource type="animation" id="SOUTH_AMERICAN_LEFT" tw="30" th="41" duration="150">data/SouthAmericanLeft.png</resource>
+  <resource type="animation" id="SOUTH_AMERICAN_RIGHT" tw="30" th="41" duration="150">data/SouthAmericanRight.png</resource>
+  <resource type="animation" id="SOUTH_AMERICAN_STANDING_LEFT" tw="30" th="41" duration="150">data/SouthAmericanStandingLeft.png</resource>
+  <resource type="animation" id="SOUTH_AMERICAN_STANDING_RIGHT" tw="30" th="41" duration="150">data/SouthAmericanStandingRight.png</resource>
+  <!-- Ennemies -->
+  <resource type="ennemy" id="FLAMEGUY" class="FLAMEGUY" minx="272" maxx="400" y="86"></resource>
+  <resource type="ennemy" id="FLAMEGUY2" class="FLAMEGUY" minx="560" maxx="630" y="374"></resource>
+  <!-- Teleports -->
+  <resource type="image" id="TELEPORT">data/teleport.png</resource>
+  <resource type="teleport" id="teleport1" x="112" y="32" xtogo="320" ytogo="160"></resource>
+  <resource type="teleport" id="teleport2" x="1" y="160" xtogo="480" ytogo="80"></resource>
+  <resource type="teleport" id="teleport3" x="380" y="160" xtogo="496" ytogo="256"></resource>
+  <resource type="teleport" id="teleport4" x="622" y="354" xtogo="538" ytogo="160"></resource>
+  <!-- Bonus -->
+  <resource type="bonus" class="SOUTH_AMERICAN" id="SOUTH_AMERICAN1" minx="0" maxx="80" y="264"></resource>
+  <resource type="bonus" id="PYTHON" class="PYTHON" minx="590" maxx="590" y="186"></resource>
+  <resource type="animation" id="SMOKE" tw="47" th="40" duration="250">data/smoke2.png</resource>
+  <!-- Levels -->
+  <resource type="text" id="TRANSITION">Il n'y a plus aucun humain en Eurasie, les zombies n'ont plus rien //à manger... Il traversent l'océan pour goûter les américains dodus !</resource>
+  <resource type="image" id="TRANSITION_BACKGROUND">data/mappemonde_level4.jpg</resource>
+  <resource type="image" id="TRANSITION_TITLE">data/title_lvl4.png</resource>
+  <resource type="movingPicture" x="475" y="225" tx="190" ty="310" time="5">data/tete_zombie.png</resource>
+  <resource type="music" id="sound">data/music/CumbiaNoFrills.ogg</resource>
+  <!-- Positions ini -->
+  <resource type="coordinates" id="1" x="34" y="403"></resource>
+  <resource type="coordinates" id="2" x="14" y="403"></resource>
+</resources>

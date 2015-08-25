@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<!-- GAMEPLAY -->
+  <!-- Backgrounds -->
+  <resource type="image" id="BACKGROUND">data/backgrounds/background_2.jpg</resource>
+  <!-- Maps -->
+  <resource type="map" id="MAP">data/maps/maplevel2.tmx</resource>
+  <!--  Player Animations -->
+  <resource type="animation" id="AFRICAN_LEFT" tw="28" th="42" duration="150">data/africanHumanLeft.png</resource>
+  <resource type="animation" id="AFRICAN_RIGHT" tw="28" th="42" duration="150">data/africanHumanRight.png</resource>
+  <resource type="animation" id="AFRICAN_STANDING_LEFT" tw="37" th="42" duration="150">data/africanHumanStandingLeft.png</resource>
+  <resource type="animation" id="AFRICAN_STANDING_RIGHT" tw="37" th="42" duration="150">data/africanHumanStandingRight.png</resource>  
+  <resource type="animation" id="ELEPHANT_STANDING_LEFT" tw="105" th="53" duration="150">data/elephant.png</resource>
+  <!-- Bonus -->
+  <resource type="bonus" class="AFRICAN" id="AFRICAN1" minx="400" maxx="480" y="184"></resource>
+  <resource type="bonus" class="ELEPHANT" id="ELEPHANT" level="2" minx="300" maxx="300" y="396"></resource>
+  <resource type="animation" id="SMOKE" tw="47" th="40" duration="250">data/smoke2.png</resource>
+  <!-- Levels -->
+  <resource type="text" id="TRANSITION">Les 2 zombies ont complètement transformé l'Europe, mais ceux-ci//ne sont pas rassasiés... Ils se dirigent donc vers l'afrique !</resource>
+  <resource type="image" id="TRANSITION_BACKGROUND">data/mappemonde_level2.jpg</resource>
+  <resource type="image" id="TRANSITION_TITLE">data/title_lvl2.png</resource>
+  <resource type="movingPicture" x="320" y="220" tx="345" ty="295" time="5">data/tete_zombie.png</resource>
+  <resource type="music" id="sound">data/music/NightCave.ogg</resource>
+  <!-- Positions ini -->
+  <resource type="coordinates" id="1" x="54" y="115"></resource>
+  <resource type="coordinates" id="2" x="34" y="115"></resource>
+</resources>

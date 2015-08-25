@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<!-- GAMEPLAY -->
+  <!-- Backgrounds -->
+  <resource type="image" id="BACKGROUND">data/mappemonde_v2.jpg</resource>
+  <resource type="image" id="BACKGROUND_PE">data/mappemonde_findujeu.jpg</resource>
+<!-- MENUS -->
+  <resource type="image" id="OPTIONS">data/menuoptions.png</resource>
+</resources>
